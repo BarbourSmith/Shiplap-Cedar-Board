@@ -7,8 +7,8 @@
     "ioValues": [
         {
             "name": "Length",
-            "ioValue": 3657.6,
-            "currentEquation": "12*12*25.4"
+            "ioValue": 144,
+            "currentEquation": "12*12"
         }
     ],
     "topLevel": true,
@@ -19,22 +19,26 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "66339ca1-4afa-4c4a-a666-d648554ac814",
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": "36b2d951-8058-4f8a-97af-bd77f28e89f1",
-                    "currentEquation": null
-                }
-            ]
+            "ioValues": []
         },
         {
             "atomType": "Input",
             "name": "Length",
             "x": 0.029699999999999997,
-            "y": 0.5069637883008357,
+            "y": 0.5431754874651811,
             "uniqueID": "55f152d6-c6a5-4cf8-b677-3569217e9c8d",
             "ioValues": [],
             "type": "number"
+        },
+        {
+            "atomType": "Readme",
+            "name": "README",
+            "x": 0.09060846560846561,
+            "y": 0.30919220055710306,
+            "uniqueID": "169a0322-e267-47f9-937b-6f2f20b40e5a",
+            "ioValues": [],
+            "readMeText": "Length is in inches, but model is in mm",
+            "global": true
         },
         {
             "atomType": "Molecule",
@@ -57,13 +61,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "187d4f13-2d89-4074-be54-f8fab8b59d28",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "9f9361a1-542b-4c11-8415-3d0ab28b0e4b",
-                            "currentEquation": null
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Rectangle",
@@ -111,11 +109,6 @@
                     "uniqueID": "a1d09ab7-79b5-475d-8f3e-255018edfaa6",
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": "0737a014-1944-4020-85c2-e1d3678abf2b",
-                            "currentEquation": null
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 0,
                             "currentEquation": null
@@ -141,11 +134,57 @@
                     "ioValues": [
                         {
                             "name": "Shape 1",
-                            "ioValue": "a1d09ab7-79b5-475d-8f3e-255018edfaa6"
+                            "ioValue": {
+                                "geometry": "move-rectangle-10-10-0-58.73-0",
+                                "dimension": "2D",
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "color": "#aad7f2",
+                                "tags": [],
+                                "bom": []
+                            }
                         },
                         {
                             "name": "Shape 2",
-                            "ioValue": "bac358a1-cf19-4708-b759-720fc19adbf9"
+                            "ioValue": {
+                                "geometry": "rectangle-17.46-107.47",
+                                "dimension": "2D",
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "color": "#aad7f2",
+                                "tags": [],
+                                "bom": []
+                            }
                         }
                     ],
                     "unionType": "Fusion"
@@ -157,11 +196,6 @@
                     "y": 0.1532033426183844,
                     "uniqueID": "384455e2-d350-4a80-a349-d5d810563be1",
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "0737a014-1944-4020-85c2-e1d3678abf2b",
-                            "currentEquation": null
-                        },
                         {
                             "name": "xDist",
                             "ioValue": 0,
@@ -185,18 +219,7 @@
                     "x": 0.5462555066079295,
                     "y": 0.298050139275766,
                     "uniqueID": "870025a6-f67c-4e68-9410-d955bf51b5dd",
-                    "ioValues": [
-                        {
-                            "name": "geometry1",
-                            "ioValue": "9ac74808-6ac3-4368-b028-b61cc4eee596",
-                            "currentEquation": null
-                        },
-                        {
-                            "name": "geometry2",
-                            "ioValue": "384455e2-d350-4a80-a349-d5d810563be1",
-                            "currentEquation": null
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Extrude",
@@ -205,11 +228,6 @@
                     "y": 0.49860724233983283,
                     "uniqueID": "b9dd488d-5450-4815-a9e6-9fe69ac4b3a6",
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "870025a6-f67c-4e68-9410-d955bf51b5dd",
-                            "currentEquation": null
-                        },
                         {
                             "name": "height",
                             "ioValue": 3657.6,
@@ -224,11 +242,6 @@
                     "y": 0.5335195530726257,
                     "uniqueID": "24847fc6-e3da-4226-a014-187707f35ba4",
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "b9dd488d-5450-4815-a9e6-9fe69ac4b3a6",
-                            "currentEquation": null
-                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 0,
@@ -253,11 +266,6 @@
                     "y": 0.76536312849162,
                     "uniqueID": "9f9361a1-542b-4c11-8415-3d0ab28b0e4b",
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "24847fc6-e3da-4226-a014-187707f35ba4",
-                            "currentEquation": null
-                        },
                         {
                             "name": "Item Name",
                             "ioValue": "New Item",
@@ -377,51 +385,143 @@
         {
             "atomType": "Equation",
             "name": "Equation",
-            "x": 0.23015873015873015,
-            "y": 0.7827298050139275,
-            "uniqueID": "cf04a492-3bf8-4f02-9b74-9318ee1ea3fe",
+            "x": 0.2347883597883598,
+            "y": 0.28969359331476324,
+            "uniqueID": "32bee0ec-700d-470b-a1c0-6475fdf4e38a",
             "ioValues": [
                 {
-                    "name": "x",
-                    "ioValue": null,
-                    "currentEquation": "L*25.4"
-                },
-                {
-                    "name": "y",
-                    "ioValue": 1,
+                    "name": "L",
+                    "ioValue": 144,
                     "currentEquation": null
                 }
             ],
-            "currentEquation": "x + y"
+            "currentEquation": "L*25.4"
         },
         {
-            "atomType": "Readme",
-            "name": "README",
-            "x": 0.09060846560846561,
-            "y": 0.30919220055710306,
-            "uniqueID": "169a0322-e267-47f9-937b-6f2f20b40e5a",
-            "ioValues": [],
-            "readMeText": "Length is in inches, but model is in mm",
-            "global": true
+            "atomType": "Add-BOM-Tag",
+            "name": "Add BOM Tag",
+            "x": 0.5006613756613757,
+            "y": 0.6908077994428969,
+            "uniqueID": "eea63dc8-94a2-4e28-96ee-b353f8b9a657",
+            "ioValues": [
+                {
+                    "name": "Item Name",
+                    "ioValue": "144 inch Shiplap Cedar 1x6",
+                    "currentEquation": null
+                },
+                {
+                    "name": "Number Needed",
+                    "ioValue": 1,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Cost (USD)",
+                    "ioValue": 21.599999999999998,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Source Link",
+                    "ioValue": "",
+                    "currentEquation": null
+                }
+            ],
+            "BOMitem": {
+                "BOMitemName": "name",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "Cost is Estimated"
+            }
+        },
+        {
+            "atomType": "Equation",
+            "name": "Equation",
+            "x": 0.27976190476190477,
+            "y": 0.532033426183844,
+            "uniqueID": "fae06b7d-22ec-447a-9207-8e22371410d1",
+            "ioValues": [
+                {
+                    "name": "X",
+                    "ioValue": 144,
+                    "currentEquation": null
+                }
+            ],
+            "currentEquation": "X + \" inch Shiplap Cedar 1x6\""
+        },
+        {
+            "atomType": "Equation",
+            "name": "Equation",
+            "x": 0.2810846560846561,
+            "y": 0.8412256267409471,
+            "uniqueID": "6f05e4f4-e4f6-47eb-8298-0868de320a48",
+            "ioValues": [
+                {
+                    "name": "L",
+                    "ioValue": 144,
+                    "currentEquation": null
+                }
+            ],
+            "currentEquation": ".15*L"
         }
     ],
     "allConnectors": [
         {
             "ap1Name": "number or geometry",
-            "ap2Name": "Length",
+            "ap2Name": "L",
             "ap1ID": "55f152d6-c6a5-4cf8-b677-3569217e9c8d",
-            "ap2ID": "36b2d951-8058-4f8a-97af-bd77f28e89f1"
+            "ap2ID": "32bee0ec-700d-470b-a1c0-6475fdf4e38a"
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "X",
+            "ap1ID": "55f152d6-c6a5-4cf8-b677-3569217e9c8d",
+            "ap2ID": "fae06b7d-22ec-447a-9207-8e22371410d1"
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "L",
+            "ap1ID": "55f152d6-c6a5-4cf8-b677-3569217e9c8d",
+            "ap2ID": "6f05e4f4-e4f6-47eb-8298-0868de320a48"
         },
         {
             "ap1Name": "geometry or number",
-            "ap2Name": "number or geometry",
+            "ap2Name": "geometry",
             "ap1ID": "36b2d951-8058-4f8a-97af-bd77f28e89f1",
+            "ap2ID": "eea63dc8-94a2-4e28-96ee-b353f8b9a657"
+        },
+        {
+            "ap1Name": "result",
+            "ap2Name": "Length",
+            "ap1ID": "32bee0ec-700d-470b-a1c0-6475fdf4e38a",
+            "ap2ID": "36b2d951-8058-4f8a-97af-bd77f28e89f1"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap1ID": "eea63dc8-94a2-4e28-96ee-b353f8b9a657",
             "ap2ID": "66339ca1-4afa-4c4a-a666-d648554ac814"
+        },
+        {
+            "ap1Name": "result",
+            "ap2Name": "Item Name",
+            "ap1ID": "fae06b7d-22ec-447a-9207-8e22371410d1",
+            "ap2ID": "eea63dc8-94a2-4e28-96ee-b353f8b9a657"
+        },
+        {
+            "ap1Name": "result",
+            "ap2Name": "Cost (USD)",
+            "ap1ID": "6f05e4f4-e4f6-47eb-8298-0868de320a48",
+            "ap2ID": "eea63dc8-94a2-4e28-96ee-b353f8b9a657"
         }
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
     "compiledBom": [
+        {
+            "BOMitemName": "name",
+            "numberNeeded": 1,
+            "costUSD": 0,
+            "source": "Cost is Estimated"
+        },
         {
             "BOMitemName": "Cedar Shiplap",
             "numberNeeded": 1,
