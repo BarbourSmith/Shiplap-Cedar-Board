@@ -1,0 +1,15 @@
+{
+    "atomType": "Molecule",
+    "name": "Shiplap Cedar Board",
+    "x": 0,
+    "y": 0,
+    "uniqueID": "d10cf47b-bf46-498a-ac57-8167c92d70b5",
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [],
+    "allConnectors": [],
+    "unitsKey": "MM",
+    "fileTypeVersion": 1,
+    "compiledBom": {},
+    "filetypeVersion": 1
+}
