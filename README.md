@@ -6,5 +6,7 @@
 
 
 
- 
+ Length is in inches, but model is in mm
+
+
 
