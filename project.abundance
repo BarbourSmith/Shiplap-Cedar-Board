@@ -4,12 +4,398 @@
     "x": 0,
     "y": 0,
     "uniqueID": "d10cf47b-bf46-498a-ac57-8167c92d70b5",
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "Length",
+            "ioValue": 3657.6,
+            "currentEquation": "12*12*25.4"
+        }
+    ],
     "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": "66339ca1-4afa-4c4a-a666-d648554ac814",
+            "ioValues": []
+        },
+        {
+            "atomType": "Molecule",
+            "name": "ShipLap Board",
+            "x": 0.32268722466960353,
+            "y": 0.5515320334261838,
+            "uniqueID": "36b2d951-8058-4f8a-97af-bd77f28e89f1",
+            "ioValues": [
+                {
+                    "name": "Length",
+                    "ioValue": 3657.6,
+                    "currentEquation": null
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": "187d4f13-2d89-4074-be54-f8fab8b59d28",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.20044052863436124,
+                    "y": 0.5598885793871866,
+                    "uniqueID": "bac358a1-cf19-4708-b759-720fc19adbf9",
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 17.46,
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 107.47,
+                            "currentEquation": null
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.14537444933920704,
+                    "y": 0.2256267409470752,
+                    "uniqueID": "0737a014-1944-4020-85c2-e1d3678abf2b",
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10,
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10,
+                            "currentEquation": null
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.3017621145374449,
+                    "y": 0.3593314763231198,
+                    "uniqueID": "a1d09ab7-79b5-475d-8f3e-255018edfaa6",
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0,
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 58.73,
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0,
+                            "currentEquation": null
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Fusion",
+                    "name": "Fusion",
+                    "x": 0.4317180616740088,
+                    "y": 0.4512534818941504,
+                    "uniqueID": "9ac74808-6ac3-4368-b028-b61cc4eee596",
+                    "ioValues": [
+                        {
+                            "name": "Shape 1",
+                            "ioValue": {
+                                "geometry": "move-rectangle-10-10-0-58.73-0",
+                                "dimension": "2D",
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "color": "#aad7f2",
+                                "tags": [],
+                                "bom": []
+                            }
+                        },
+                        {
+                            "name": "Shape 2",
+                            "ioValue": {
+                                "geometry": "rectangle-17.46-107.47",
+                                "dimension": "2D",
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "color": "#aad7f2",
+                                "tags": [],
+                                "bom": []
+                            }
+                        }
+                    ],
+                    "unionType": "Fusion"
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.4350220264317181,
+                    "y": 0.1532033426183844,
+                    "uniqueID": "384455e2-d350-4a80-a349-d5d810563be1",
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0,
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": -49,
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0,
+                            "currentEquation": null
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.5462555066079295,
+                    "y": 0.298050139275766,
+                    "uniqueID": "870025a6-f67c-4e68-9410-d955bf51b5dd",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.698237885462555,
+                    "y": 0.49303621169916434,
+                    "uniqueID": "b9dd488d-5450-4815-a9e6-9fe69ac4b3a6",
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 3657.6,
+                            "currentEquation": null
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.8101851851851852,
+                    "y": 0.5335195530726257,
+                    "uniqueID": "24847fc6-e3da-4226-a014-187707f35ba4",
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0,
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 90,
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": -90,
+                            "currentEquation": null
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Add-BOM-Tag",
+                    "name": "Add BOM Tag",
+                    "x": 0.8650793650793651,
+                    "y": 0.76536312849162,
+                    "uniqueID": "9f9361a1-542b-4c11-8415-3d0ab28b0e4b",
+                    "ioValues": [
+                        {
+                            "name": "Item Name",
+                            "ioValue": "New Item",
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "Number Needed",
+                            "ioValue": 1,
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "Cost (USD)",
+                            "ioValue": 0,
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "Source Link",
+                            "ioValue": "",
+                            "currentEquation": null
+                        }
+                    ],
+                    "BOMitem": {
+                        "BOMitemName": "Cedar Shiplap",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "https://www.lowes.com/pd/RELIABILT-5-375-in-x-12-ft-Unfinished-Cedar-Tongue-and-Groove-Wall-Plank-1-Pack-Covers-5-38-sq-ft/1000456695?user=shopping&feed=yes&gad_source=1&gad_campaignid=21218170251&gclid=CjwKCAjwvO7CBhAqEiwA9q2YJdk_r7n3FB7d_4rSmPHAxLzIKqJX_qTlfnD14cEg7dvBOpAPxnaE2hoCqocQAvD_BwE"
+                    }
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Length",
+                    "x": 0.029699999999999997,
+                    "y": 0.7604456824512534,
+                    "uniqueID": "e53ce4e1-c5cc-4db6-b55e-ced82504d98b",
+                    "ioValues": [],
+                    "type": "number"
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 2",
+                    "ap1ID": "bac358a1-cf19-4708-b759-720fc19adbf9",
+                    "ap2ID": "9ac74808-6ac3-4368-b028-b61cc4eee596"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": "0737a014-1944-4020-85c2-e1d3678abf2b",
+                    "ap2ID": "a1d09ab7-79b5-475d-8f3e-255018edfaa6"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": "0737a014-1944-4020-85c2-e1d3678abf2b",
+                    "ap2ID": "384455e2-d350-4a80-a349-d5d810563be1"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 1",
+                    "ap1ID": "a1d09ab7-79b5-475d-8f3e-255018edfaa6",
+                    "ap2ID": "9ac74808-6ac3-4368-b028-b61cc4eee596"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap1ID": "9ac74808-6ac3-4368-b028-b61cc4eee596",
+                    "ap2ID": "870025a6-f67c-4e68-9410-d955bf51b5dd"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap1ID": "384455e2-d350-4a80-a349-d5d810563be1",
+                    "ap2ID": "870025a6-f67c-4e68-9410-d955bf51b5dd"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": "870025a6-f67c-4e68-9410-d955bf51b5dd",
+                    "ap2ID": "b9dd488d-5450-4815-a9e6-9fe69ac4b3a6"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": "b9dd488d-5450-4815-a9e6-9fe69ac4b3a6",
+                    "ap2ID": "24847fc6-e3da-4226-a014-187707f35ba4"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": "24847fc6-e3da-4226-a014-187707f35ba4",
+                    "ap2ID": "9f9361a1-542b-4c11-8415-3d0ab28b0e4b"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": "9f9361a1-542b-4c11-8415-3d0ab28b0e4b",
+                    "ap2ID": "187d4f13-2d89-4074-be54-f8fab8b59d28"
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "height",
+                    "ap1ID": "e53ce4e1-c5cc-4db6-b55e-ced82504d98b",
+                    "ap2ID": "b9dd488d-5450-4815-a9e6-9fe69ac4b3a6"
+                }
+            ],
+            "fileTypeVersion": 1,
+            "compiledBom": [
+                {
+                    "BOMitemName": "Cedar Shiplap",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": "https://www.lowes.com/pd/RELIABILT-5-375-in-x-12-ft-Unfinished-Cedar-Tongue-and-Groove-Wall-Plank-1-Pack-Covers-5-38-sq-ft/1000456695?user=shopping&feed=yes&gad_source=1&gad_campaignid=21218170251&gclid=CjwKCAjwvO7CBhAqEiwA9q2YJdk_r7n3FB7d_4rSmPHAxLzIKqJX_qTlfnD14cEg7dvBOpAPxnaE2hoCqocQAvD_BwE"
+                }
+            ]
+        },
+        {
+            "atomType": "Input",
+            "name": "Length",
+            "x": 0.029699999999999997,
+            "y": 0.5069637883008357,
+            "uniqueID": "55f152d6-c6a5-4cf8-b677-3569217e9c8d",
+            "ioValues": [],
+            "type": "number"
+        }
+    ],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry or number",
+            "ap2Name": "number or geometry",
+            "ap1ID": "36b2d951-8058-4f8a-97af-bd77f28e89f1",
+            "ap2ID": "66339ca1-4afa-4c4a-a666-d648554ac814"
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Length",
+            "ap1ID": "55f152d6-c6a5-4cf8-b677-3569217e9c8d",
+            "ap2ID": "36b2d951-8058-4f8a-97af-bd77f28e89f1"
+        }
+    ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
-    "compiledBom": {},
+    "compiledBom": [
+        {
+            "BOMitemName": "Cedar Shiplap",
+            "numberNeeded": 1,
+            "costUSD": 0,
+            "source": "https://www.lowes.com/pd/RELIABILT-5-375-in-x-12-ft-Unfinished-Cedar-Tongue-and-Groove-Wall-Plank-1-Pack-Covers-5-38-sq-ft/1000456695?user=shopping&feed=yes&gad_source=1&gad_campaignid=21218170251&gclid=CjwKCAjwvO7CBhAqEiwA9q2YJdk_r7n3FB7d_4rSmPHAxLzIKqJX_qTlfnD14cEg7dvBOpAPxnaE2hoCqocQAvD_BwE"
+        }
+    ],
     "filetypeVersion": 1
 }
